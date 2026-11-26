@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Playground | Palak Sharma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">JS Playground</div>
+  <div class="student">Palak Sharma | 23BCON1668 | JECRC University</div>
+</header>
+
+<section class="hero">
+  <h1>Interactive JavaScript Playground</h1>
+  <p>Learn JavaScript by experimenting with code and seeing instant results.</p>
+</section>
+
+<main class="container">
+  <section class="editor">
+    <h2>Write Your JavaScript Code</h2>
+    <textarea id="code" spellcheck="false">console.log("Hello, JavaScript!");
+document.body.style.backgroundColor = "#e8f5e9";</textarea>
+    <button onclick="runCode()">Run Code ▶</button>
+    <button class="clear" onclick="clearOutput()">Clear Output</button>
+  </section>
+
+  <section class="result">
+    <h2>Output Console</h2>
+    <pre id="output">Your output will appear here...</pre>
+  </section>
+</main>
+
+<section class="examples">
+  <h2>Try These JavaScript Examples</h2>
+  <button onclick="loadExample('hello')">Hello World</button>
+  <button onclick="loadExample('math')">Mathematics</button>
+  <button onclick="loadExample('loop')">For Loop</button>
+</section>
+
+<footer>
+  <p>Developed by Palak Sharma | Roll No. 23BCON1668</p>
+  <p>B.Tech CSE | Section P | JECRC University</p>
+  <p>© 2026 JavaScript Playground</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
